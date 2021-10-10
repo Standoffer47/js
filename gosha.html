@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10,26 +10,31 @@
             background-color:white;
             color:black;
         }
-        a {
-            
-            display: inline-block;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin: 15px 25px;
-            padding: 15px 20px;
-            font-size: 20px;
-            font-weight: bold;
-            font-family: 'Montserrat', sans-serif;
-            transition: 0.4s ease-in-out;
-        
+        a{
+            background-image: linear-gradient(#FE5568 50%, #FE5568 50%), linear-gradient(silver 50%, silver 50%);
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: 0 2px, 100% 2px;
+            color: #1E3A52;
+            padding-bottom: 3px;
+            transition: .5s ease-in-out;
+            text-decoration:none;
         }
+
+        a:hover {
+            background-size: 100% 2px,100% 2px;
+            color: #FE5568;
+        }
+        
+        
+        
     </style>
 </head>
 <body>
     <a href="https://github.com/Standoffer47/js.git">GitHub</a>
     <script>
-
+        let age = prompt('How old are you?: '); if (age > 8) { alert('OK.Welcome'); } else { alert('Oh,go away'); }
+                            
     </script>
-</body>
+    </body>
 </html>
