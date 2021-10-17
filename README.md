@@ -1,2 +1,2 @@
 # js
-This is my first javascript web
+гоша украл сотку у меня
